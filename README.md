@@ -1,18 +1,32 @@
-Input type and range: 
+# Input Type and (Suggested) Range: 
 
-regularBallQuantity: int, [0, 500] <br>
-randomizeBallSize: bool, true/false <br>
-velocityConstant: float, (0, 1.5] <br>
-diameterConstant: float, (0, 1.5] <br>
+Regular Ball Quantity: int, [0, 500]
+Randomize Ball Size: bool, true/false 
+Velocity Constant: float, [0, 5] 
+Diameter Constant: float, [0, 5] 
 
-specialBallQuantity: int, [0, 50] <br>
-forceType: enum, None/Repel/Attract <br>
-forceConstant: float, (0, 200] <br>
-forceRadius: float, (0, 100] <br>
-movingIncrement: double, (0, 0.15] <br>
-angleIncrement: double, (0, 0.15] <br>
-colorSpecialBall: bool, true/false  <br><br>
+Special Ball Quantity: int, [0, 50] 
+Force Type: enum, None/Repel/Attract 
+Force Constant: float, [0, 200] 
+Force Radius: float, [0, 100] 
+Moving Increment: double, [0, 5] 
+Angle Increment: double, [0, 5] 
+Color Special Ball: bool, true/false  
 
-Input explanation: <br>
+# Input Explanation: 
 
 will add later
+
+# Keyboard Controls:
+
+Setting Menu: 
+    Space - resume
+    Return - reset
+
+Simulation:
+    Space - pause
+    "-", "+" - delete/add regular balls
+    "[", "]" - delete/add special balls
+
+Both:
+    Escape - quit program
