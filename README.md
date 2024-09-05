@@ -13,13 +13,19 @@ Angle Increment: double, [0, 5] <br>
 ### Input Explanation: 
 
 Regular Ball Quantity: Parameter for the amount of regular balls you want. It can be adjusted during simulation. <br>
-Velocity Constant: Parameter for both regular and special balls. The default should be set to 1. Notice that the velocity is automatically scaled inversely to the total ball quantity, so this parameter is only modified when the user wants to make additional adjustments. <br>
+
+Velocity Constant: Parameter for both regular and special balls. The default should be set to 1. Notice that the velocity is automatically scaled inversely to the total ball quantity, so this parameter is only modified when the user wants to make additional adjustments. <be>
+
 Diameter Constant: Similar description as above. <br>
 
-Special Ball Quantity: Parameter for the amount of special balls you want. It can be adjusted during simulation. <br>
-Force Constant: Represents the strength of the force. Need not to be negative. The program automatically scales the force strength inversely to the total ball quantity, but additional modification is still needed. <br>
-Force Radius: Similar description as above. <br>
-Moving Increment: Represents the special balls' speed. Since special balls are programmed to not have velocity on their own, the user must specify the moving increment per frame. Notice that the "default" value is dependent on the screen size, so it varies from device to device. <br>
+Special Ball Quantity: Parameter for the amount of special balls you want. It can be adjusted during simulation. <be>
+
+Force Constant: Represents the strength of the force. Need not to be negative. The program automatically scales the force strength inversely to the total ball quantity, but additional modification is still needed. <be>
+
+Force Radius: Similar description as above. <be>
+
+Moving Increment: Represents the special balls' speed. Since special balls are programmed to not have velocity on their own, the user must specify the moving increment per frame. Notice that the "default" value is dependent on the screen size, so it varies from device to device. <be>
+
 Angle Increment: Similar description as above. <br>
 
 ### Keyboard Controls:
