@@ -1,3 +1,5 @@
+A place to store the actual build of the billiard ball simulation. To check out the Unity assets and settings, see my billiard-ball-simulation.
+
 ### Custom Input Type and (Suggested) Range: 
 
 Regular Ball Quantity: int, [0, 500] <br>
